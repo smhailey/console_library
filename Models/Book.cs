@@ -7,11 +7,11 @@ namespace console_library.Models
     public string Author { get; set; }
     public bool Available { get; set; }
 
-    public Book(string title, string author, bool available = true)
+    public Book(string title, string author)
     {
       Title = title;
       Author = author;
-      Available = available;
+      Available = true;
     }
   }
 }
